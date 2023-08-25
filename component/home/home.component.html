@@ -1,0 +1,128 @@
+
+
+<div class="container w-100">
+  <div class="btn-section">
+    <button
+      type="button"
+      class="btn btn1 btn-success mt-3"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Ürün Ekle
+      <i class="fa-solid fa-square-plus"></i>
+    </button>
+
+    <button type="button" class="btn btn2 btn-primary mt-3">
+      Ürün Çıkar
+      <i class="fa-solid fa-square-minus"></i>
+    </button>
+  </div>
+
+  <div class="row mt-2">
+    <div class="col-md-3 " *ngFor="let item of products">
+      <div class="card mt-3 text-center">
+        <img [src]="item.productImage" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{{ item.productName }}</h5>
+          <p class="card-text">{{ item.productDescription }}</p>
+          <h6> Fiyat: {{ item.productPrice }}</h6>
+          <a class="btn btn-dark" (click)="addToBasket(product)"
+            >Sepete Ekle
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+          <span>
+            <button class="btn fav btn-danger" (click)="addToFavorites(product)" >
+              <i class="fa-solid fa-heart"></i>
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Ürün Ekle</h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="productName"> Ürün Adı </label>
+          <input
+            type="text"
+            id="productName"
+            [(ngModel)]="product.productName"
+            class="form-control mt-1"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="productDescription"> Ürün Açıklaması </label>
+          <input
+            type="text"
+            id="productDescription"
+            [(ngModel)]="product.productDescription"
+            class="form-control mt-1"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="productImage"> Ürün Resmi</label>
+          <input
+            type="text"
+            id="productImage"
+            [(ngModel)]="product.productImage"
+            class="form-control mt-1"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="productPrice"> Ürün Fiyatı</label>
+          <input
+            type="text"
+            id="productPrice"
+            [(ngModel)]="product.productPrice"
+            class="form-control mt-1"
+          />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          İptal
+        </button>
+        <button type="button" class="btn btn-primary" (click)="addProduct()">
+          Kaydet
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+window.sr = this.scrollReveal();
+sr.reveal('card',{
+  origin:'left',
+  duration:1000,
+  distance:'25rem',
+  delay:600
+});
+
+</script>
+
+

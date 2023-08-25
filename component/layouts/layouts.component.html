@@ -1,0 +1,66 @@
+<div class="container-fluid">
+
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/">
+        <i class="fa fa-home"></i>
+        BartuBaba.com
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Hesabım
+              <i class="fa-solid fa-image-portrait"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/">Ürünler
+              <i class="fa-brands fa-product-hunt"></i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/favorites">Favorilerim
+              <i class="fa-solid fa-star"></i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Koleksiyonlarım
+              <i class="fa-solid fa-floppy-disk"></i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/basket">Sepetim
+              <i class="fa-solid fa-basket-shopping"></i>
+              <span class="badge text-bg-danger"> {{baskets.length}} </span>
+            </a>
+          </li>
+
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-3" type="search" placeholder="Aradığınız Ürünü Giriniz" aria-label="Search">
+          <button class="btn btn-outline-success text-light" type="submit">
+            Ara <i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+
+        <form class="d-flex" role="account">
+          <button class="btn-account btn-outline-success text-light" routerLink="/login" type="logout">
+            Oturumu Kapat
+            <i class="fa-solid fa-right-from-bracket"></i>
+          </button>
+        </form>
+
+
+
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <router-outlet> </router-outlet>

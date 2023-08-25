@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "productName": "Iphone 14 Pro Max",
+      "productDescription": "Ürün Tipi: Akıllı Telefon, Renk: Deep Purple, Üretici Garantisi: 2 Yıl, İşletim Sistemi: iOS 16, Kapasitesi: 128 GB",
+      "productPrice": "64299t",
+      "productImage": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_97307208/fee_325_225_png/APPLE-iPhone-14-Pro-Max-128GB-Ak%C4%B1ll%C4%B1-Telefon-Deep-Purple-MQ9T3TU-A",
+      "id": 1
+    },
+    {
+      "productName": "Samsung Galaxy A34",
+      "productDescription": "Ürün Tipi: Akıllı Telefon, Renk: Green,  Ekran Boyutu: 6,6 inç, Kapasitesi: 128 GB",
+      "productPrice": "11499t",
+      "productImage": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_113007672/fee_325_225_png/SAMSUNG-Galaxy-A34-256-GB-Ak%C4%B1ll%C4%B1-Telefon-A%C3%A7%C4%B1k-Ye%C5%9Fil",
+      "id": 2
+    },
+    {
+      "productName": "Iphone 11",
+      "productDescription": "Ürün Tipi: Akıllı Telefon Renk: Beyaz Üretici Garantisi: 2 Yıl, İşletim Sistemi: iOS, Kapasitesi: 64 GB",
+      "productPrice": "25499t",
+      "productImage": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_89723927/fee_325_225_png/APPLE-iPhone-11-128GB-Ak%C4%B1ll%C4%B1-Telefon-Beyaz",
+      "id": 3
+    },
+    {
+      "productName": "Iphone 13",
+      "productDescription": "Ürün Tipi: Akıllı Telefon Renk: Pembe Üretici Garantisi: 2 Yıl, İşletim Sistemi: iOS, Kapasitesi: 128 GB",
+      "productPrice": "39499t",
+      "productImage": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_87302263/fee_325_225_png/APPLE-iPhone-13-128-GB-Ak%C4%B1ll%C4%B1-Telefon-Pembe-MLPH3TU-A",
+      "id": 4
+    },
+    {
+      "productName": "Samsung Galaxy S23",
+      "productDescription": "Ürün Tipi: Akıllı Telefon Renk: Lavender Üretici Garantisi: 2 Yıl,  İşletim Sistemi: Android 13 One UI 5.1, Kapasitesi: 256 GB",
+      "productPrice": "30999t",
+      "productImage": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101716005/fee_325_225_png/SAMSUNG-Galaxy-S23-256-GB-Ak%C4%B1ll%C4%B1-Telefon-Lavender",
+      "id": 5
+    },
+    {
+      "productName": "HUAWEI Nova 10 SE",
+      "productDescription": "Ürün Tipi: Akıllı Telefon Renk: Gümüş Üretici Garantisi: 2 Yıl, İşletim Sistemi: EMUI 12, Kapasitesi: 128 GB",
+      "productPrice": "13999t",
+      "productImage": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99459456/fee_325_225_png/HUAWEI-Nova-10-SE-128-GB-Ak%C4%B1ll%C4%B1-Telefon-Y%C4%B1ld%C4%B1zl%C4%B1-G%C3%BCm%C3%BC%C5%9F",
+      "id": 6
+    },
+    {
+      "productName": "Samsung Galaxy S21 FE",
+      "productDescription": "Ürün Tipi: Akıllı Telefon, Renk: Violet Üretici Garantisi: 2 Yıl, İşletim Sistemi: Android, Kapasitesi: 64 GB",
+      "productPrice": "17999t",
+      "productImage": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_90556717/fee_325_225_png/SAMSUNG-Galaxy-S21-FE-128GB-Ak%C4%B1ll%C4%B1-Telefon-Violet",
+      "id": 7
+    },
+    {
+      "productName": "HUAWEI Nova Y90",
+      "productDescription": "Ürün Tipi: Akıllı Telefon, Renk: Siyah Üretici Garantisi: 2 Yıl, İşletim Sistemi: EMUI, Kapasitesi: 128 GB",
+      "productPrice": "7999t",
+      "productImage": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96274505/fee_325_225_png/HUAWEI-Nova-Y90-128GB-Ak%C4%B1ll%C4%B1-Telefon-Gece-Yar%C4%B1s%C4%B1-Siyah%C4%B1",
+      "id": 8
+    }
+  ],
+  "baskets": [
+    {
+      "productName": "Iphone 14 Pro Max",
+      "productDescription": "Ürün Tipi: Akıllı Telefon, Renk: Deep Purple, Üretici Garantisi: 2 Yıl, İşletim Sistemi: iOS 16, Kapasitesi: 128 GB",
+      "productPrice": "64299t",
+      "productImage": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_97307208/fee_325_225_png/APPLE-iPhone-14-Pro-Max-128GB-Ak%C4%B1ll%C4%B1-Telefon-Deep-Purple-MQ9T3TU-A",
+      "id": 1
+    },
+    {
+      "productName": "HUAWEI Nova Y90",
+      "productDescription": "Ürün Tipi: Akıllı Telefon, Renk: Siyah Üretici Garantisi: 2 Yıl, İşletim Sistemi: EMUI, Kapasitesi: 128 GB",
+      "productPrice": "7999t",
+      "productImage": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96274505/fee_325_225_png/HUAWEI-Nova-Y90-128GB-Ak%C4%B1ll%C4%B1-Telefon-Gece-Yar%C4%B1s%C4%B1-Siyah%C4%B1",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "productName": "",
+      "productDescription": "",
+      "productPrice": "",
+      "productImage": ""
+    }
+  ],
+  "favorites": [
+    {
+      "productName": "HUAWEI Nova 10 SE",
+      "productDescription": "Ürün Tipi: Akıllı Telefon Renk: Gümüş Üretici Garantisi: 2 Yıl, İşletim Sistemi: EMUI 12, Kapasitesi: 128 GB",
+      "productPrice": "13999t",
+      "productImage": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99459456/fee_325_225_png/HUAWEI-Nova-10-SE-128-GB-Ak%C4%B1ll%C4%B1-Telefon-Y%C4%B1ld%C4%B1zl%C4%B1-G%C3%BCm%C3%BC%C5%9F",
+      "id": 6
+    }
+  ]
+}

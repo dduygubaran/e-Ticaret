@@ -1,0 +1,23 @@
+.d-flex button {
+  width: 100px;
+  background-color:#00cec9;
+  border-color: #00cec9;
+}
+
+.navbar-brand{
+  color: mediumpurple;
+}
+
+.d-flex .btn-account {
+  width: 100px;
+  background-color:#e74c3c;
+  border-color: #e74c3c;
+  border-radius: 10px;
+  width: 160px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.d-flex .btn-account i {
+  margin-left: 3%;
+}

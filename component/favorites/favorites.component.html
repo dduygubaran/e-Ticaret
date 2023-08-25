@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="layout mt-2">
+    <h4 style="color: aliceblue">Beğendiğim Ürünler</h4>
+  </div>
+  <div class="row">
+    <div>
+      <div
+        class="card w-100 mt-2"
+        *ngFor="let item of favorites; let index = index"
+      >
+        <div class="card-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col"> Ürün Adı</th>
+                <th scope="col">Ürün Detayları</th>
+                <th scope="col">Ücret</th>
+                <th scope="col">İşlemler</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <td>{{ index + 1 }}</td>
+              <td>{{ item.productName }}</td>
+              <td>{{ item.productDescription }}</td>
+              <td>{{ item.productPrice }}</td>
+              <td>
+                <button class="btn btn-outline-success">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </td>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
