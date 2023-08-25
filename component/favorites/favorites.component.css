@@ -1,5 +1,5 @@
 h4 {
-  background-color: green;
+  background-color: #e17055;
   padding: 5px;
 }
 
@@ -7,8 +7,9 @@ button {
 margin-left: 23px;
 margin-top: 10px;
 margin-bottom: -20px;
+border-color: #e17055;
 }
 
 button i {
-  color: green;
+  color: #e17055;
 }

@@ -1,11 +1,3 @@
-.btn-section .btn1{
-  width: 40rem;
-  margin-right: 1rem;
-}
-
-.btn-section .btn2{
-  width: 40rem;
-}
 
 .card-img-top{
   height: 160px;
@@ -16,6 +8,10 @@
 
 .card-body {
   height: 200px;
+}
+
+.card img {
+  margin-top: 20px;
 }
 
 .card-body h6 {
@@ -29,12 +25,24 @@
 }
 
 .row .card {
-
-  background-color:darkkhaki;
+  background-color:#e0ffcd;
 }
 
 .fav {
   margin-left: 8px;
+}
+
+.btn-section .btn1{
+  width: 10rem;
+  margin-right: 1rem;
+  background-color: #e46161;
+  border-color: #e46161;
+}
+
+.btn-section .btn2{
+  width: 10rem;
+  background-color: #e46161;
+  border-color: #e46161;
 }
 
 

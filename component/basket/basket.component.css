@@ -5,15 +5,15 @@
 }
 
 .basket-form{
-  background-color: violet;
+  background-color: mediumslateblue;
   color: white
 }
 
 button {
   margin-left: 10px;
-  border-color: violet;
+  border-color: mediumslateblue;
 }
 
 button i {
-  color: violet;
+  color: mediumslateblue;
 }

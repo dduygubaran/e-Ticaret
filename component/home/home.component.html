@@ -1,22 +1,7 @@
 
 
 <div class="container w-100">
-  <div class="btn-section">
-    <button
-      type="button"
-      class="btn btn1 btn-success mt-3"
-      data-bs-toggle="modal"
-      data-bs-target="#exampleModal"
-    >
-      Ürün Ekle
-      <i class="fa-solid fa-square-plus"></i>
-    </button>
 
-    <button type="button" class="btn btn2 btn-primary mt-3">
-      Ürün Çıkar
-      <i class="fa-solid fa-square-minus"></i>
-    </button>
-  </div>
 
   <div class="row mt-2">
     <div class="col-md-3 " *ngFor="let item of products">
@@ -39,6 +24,24 @@
       </div>
     </div>
   </div>
+
+  <div class="btn-section">
+    <button
+      type="button"
+      class="btn btn1 btn-success mt-3"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Ürün Ekle
+      <i class="fa-solid fa-square-plus"></i>
+    </button>
+
+    <button type="button" class="btn btn2 btn-primary mt-3">
+      Ürün Çıkar
+      <i class="fa-solid fa-square-minus"></i>
+    </button>
+  </div>
+
 </div>
 
 <!-- Modal -->
