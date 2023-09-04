@@ -27,7 +27,7 @@ form {
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(24, 23, 23, 0.719);
     width: 300px;
-    height: 410px;
+    height: 380px;
 }
 
 form h2 {
@@ -74,10 +74,5 @@ form input[type="email"]:focus, form input[type="password"]:focus {
 form input[type="submit"]:hover{
   background-color:#2ecc71;
   color: black;
-}
-
-a {
-  font-size: small;
-  margin-bottom: auto;
 }
 
