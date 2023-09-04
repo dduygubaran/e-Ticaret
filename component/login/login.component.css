@@ -76,3 +76,9 @@ form input[type="submit"]:hover{
   color: black;
 }
 
+form a {
+  font-size: small;
+}
+
+
+
