@@ -10,3 +10,4 @@
 
 ![Favorite Page](https://github.com/dduygubaran/e-Ticaret/assets/83429611/68d4762f-5bcb-4f3b-8ad8-8ad67d74f426)
 
+![Account Info](https://github.com/dduygubaran/e-Ticaret/assets/83429611/f2a55357-16f3-45a0-98a2-db6db81cc288)
