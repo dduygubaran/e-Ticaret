@@ -1,0 +1,45 @@
+
+.account {
+  margin-left: 30%;
+  margin-right:30%;
+  margin-top: 12%;
+
+}
+
+form {
+  background-color: white;
+  padding: 20px ;
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(24, 23, 23, 0.719);
+  width: 600px;
+  height: 380px;
+}
+
+form h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form input {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+form button {
+
+  margin-bottom: 20px;
+
+}
+
+form .btn1 {
+  margin-left: 410px;
+  margin-right: 10px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
