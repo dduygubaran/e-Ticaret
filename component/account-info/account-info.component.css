@@ -1,0 +1,59 @@
+
+.card-body {
+  margin-left: 30%;
+  margin-right:30%;
+  margin-top: 12%;
+  background-color: white;
+  padding: 20px ;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(24, 23, 23, 0.719);
+  width: 800px;
+  height: 360px;
+}
+
+h3 {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-top: -160px;
+}
+
+form input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  background: none;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  border: solid 1px;
+  margin-left: 30%;
+}
+
+form button {
+  display: flex;
+  width:fit-content;
+
+}
+
+.btn1 {
+margin-top: 20px;
+margin-left: 280px;
+}
+
+.btn2{
+  margin-left: 450px;
+  margin-top: -38px;
+}
+
+
+p {
+  margin-left: 25%;
+}
