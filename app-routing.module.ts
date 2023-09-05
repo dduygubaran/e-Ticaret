@@ -5,6 +5,7 @@ import { HomeComponent } from './component/home/home.component';
 import { BasketComponent } from './component/basket/basket.component';
 import { FavoritesComponent } from './component/favorites/favorites.component';
 import { LoginComponent } from './component/login/login.component';
+import { AccountInfoComponent } from './component/account-info/account-info.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
       {
         path: 'login',
         component: LoginComponent
+      },
+       {
+        path:'accountInfo',
+        component: AccountInfoComponent
       }
     ],
   },
